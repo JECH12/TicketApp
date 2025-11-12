@@ -90,6 +90,14 @@ services:
 	Cadena de conexión (en appsettings.json):
 
 	"DefaultConnection": "Server=sqlserver,1433;Database=TicketDB;User Id=sa;Password=Esteban123;TrustServerCertificate=True;"
+
+6 Endpoint GraphQL
+
+Una vez que los contenedores estén corriendo, abrir el navegador en:
+
+http://localhost:5000/graphql
+
+Ahí encontrara el playground de HotChocolate para realizar consultas y mutations.
 ------------------------------------------------------------------------
 
 Endpoints(GraphQL)
